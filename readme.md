@@ -1,19 +1,22 @@
-Using -> http://expressjs.com/
+# NODE with restful example using expressjs
 
-Using -> Docker:
-docker build -t alexsrosa/node-api-restful:alpha .
-docker run -d -p 8081:8080 alexsrosa/node-api-restful:alpha
-docker container list -a
-docker stop <container>
+## Using -> http://expressjs.com/
 
-docker login
-docker push alexsrosa/node-api-restful:alpha
+## Using -> Docker:
+``` docker build -t alexsrosa/node-api-restful:alpha . ``` 
+``` docker run -d -p 8081:8080 alexsrosa/node-api-restful:alpha ``` 
+``` docker container list -a ``` 
+``` docker stop <container> ``` 
 
-docker container prune
-docker container ls
-docker container ps
+``` docker login ``` 
+``` docker push alexsrosa/node-api-restful:alpha ``` 
 
-Routers: 
-GET -> http://localhost:8081/votes
-GET -> http://localhost:8081/votes/1
-PUT -> http://localhost:8081/votes
+### Others commands:
+``` docker container prune ``` 
+``` docker container ls ``` 
+``` docker container ps ``` 
+
+## Routers: 
+- GET -> http://localhost:8081/votes
+- GET -> http://localhost:8081/votes/1
+- PUT -> http://localhost:8081/votes
